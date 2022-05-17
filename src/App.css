@@ -1,38 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Macondo&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Zen+Loop&display=swap");
+
+
 .App {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table, td, th, tr{
+  border: solid 1px black;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-color: antiquewhite;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.homeDiv {
+  border-radius: 20px;
+  background-color: white;
+  display: inline-block;
+  width: 500px;
+  height: 550px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.homeHead{
+  font-family: 'Macondo', cursive;
+  font-size: 60px;
+}
+
+.links {
+  text-decoration: none;
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.newClientBtn , .clientSelect, .clientBtns, .errBtn {
+  font-family: 'Zen Loop', cursive;
+  font-size: 40px;
+  border-radius: 30px;
+  width: 220px;
+  height: 80px;
+  border-color: white;
+  color: white;
+  background-color:rgba(165, 42, 42, 0.598);
+  text-align: center;
+  text-transform: capitalize;
+  font-weight: bold;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.radioLabels {
+  font-family: 'Zen Loop', cursive;
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.goHomeBtn, .signUpBtn, .goHomeBtn {
+  font-family: 'Zen Loop', cursive;
+  font-size: 40px;
+  border-radius: 30px;
+  width: 70px;
+  height: 80px;
+  border-color: white;
+  background-color:rgba(42, 93, 165, 0.598);
+  text-transform: capitalize;
+  font-weight: bold;
+}
+
+.signUpInputs, .errInput {
+  font-family: 'Zen Loop', cursive;
+  text-transform: capitalize;
+  margin-top: 20px;
+  width: 250px;
+  height: 30px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 15px;
+  font-weight: bold;
+  border-color:rgba(165, 42, 42, 0.598);
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+.signUpBtn {
+  width: 100px;
+  height: 100px;
+}
+
+.clientBtns {
+  margin-top: 30px;
+}
+
+.errInputBtn {
+  font-family: 'Zen Loop', cursive;
+  font-size: 20px;
+  border-radius: 30px;
+  border-color: white;
+  color: white;
+  background-color:rgba(165, 42, 42, 0.598);
+  text-transform: capitalize;
+  font-weight: bold; 
+}
+
+.goHomeBtn {
+  width: 150px;
+  height: 70px;
+  font-size: 25px;
+}
+
+.errBtn {
+  font-size: 20px;
+  width: 150px;
+  color: black;
+  background-color: antiquewhite;
 }
