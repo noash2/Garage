@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/garage/static/css/main.b0c75a69.css",
+    "main.js": "/garage/static/js/main.dd8ba20b.js",
+    "index.html": "/garage/index.html",
+    "main.b0c75a69.css.map": "/garage/static/css/main.b0c75a69.css.map",
+    "main.dd8ba20b.js.map": "/garage/static/js/main.dd8ba20b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b0c75a69.css",
+    "static/js/main.dd8ba20b.js"
+  ]
+}
