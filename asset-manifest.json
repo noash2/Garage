@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/garage/static/css/main.b0c75a69.css",
-    "main.js": "/garage/static/js/main.97fefc7d.js",
+    "main.css": "/garage/static/css/main.e6c13ad2.css",
+    "main.js": "/garage/static/js/main.6b06a196.js",
     "index.html": "/garage/index.html",
-    "main.b0c75a69.css.map": "/garage/static/css/main.b0c75a69.css.map",
-    "main.97fefc7d.js.map": "/garage/static/js/main.97fefc7d.js.map"
+    "main.e6c13ad2.css.map": "/garage/static/css/main.e6c13ad2.css.map",
+    "main.6b06a196.js.map": "/garage/static/js/main.6b06a196.js.map"
   },
   "entrypoints": [
-    "static/css/main.b0c75a69.css",
-    "static/js/main.97fefc7d.js"
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.6b06a196.js"
   ]
 }
