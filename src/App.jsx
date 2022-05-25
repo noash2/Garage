@@ -1,6 +1,6 @@
 import './App.css';
 import React, {useState} from 'react';
-import {Routes , Route, useNavigate } from 'react-router-dom';
+import { HashRouter, Routes , Route, useNavigate } from 'react-router-dom';
 import Homepage from './Components/Homepage';
 import Context from './Context';
 import AddClient from './Components/AddClient';
@@ -100,7 +100,7 @@ function App() {
 
   return (
     <div className="App">
-          
+    <HashRouter>      
       <Context.Provider value={{clientsArr, setClientsArr, errorsArr, setErrorsArr,
         name, id, address, phone, carNum, valid, showNameErr,showIdErr, showPhoneErr,showClientDetails, setShowClientDetails,
         radioSelect, setRadioSelect, setShowNameErr, setClientSelect, clientSelect,clientErrInput, setClientErrInput,
@@ -114,6 +114,7 @@ function App() {
         </Routes>
     
       </Context.Provider>
+      </HashRouter>
     </div>
   );
 }
