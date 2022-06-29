@@ -13,7 +13,7 @@ export default function Homepage() {
         <button className='newClientBtn'><Link to="/addclinet" className='links'>new client</Link></button><br /><br />
 
         <select className='clientSelect' onChange={(e) => {setIndx(e.target.value)}} required>
-            <option value="choose" defaultValue> --choose client-- </option>
+            <option value="choose" selected="true" disabled="disabled"> --choose client-- </option>
             {clientsArr.map((elemnt, i) => {
                 if (radioSelect === 'ID'){
                    return <option value={i}>{elemnt.id}</option>
